@@ -7,7 +7,7 @@ load_dotenv()
 
 app = Flask(__name__)
 
-EBAY_APP_ID = os.getenv(GilesCle-A-SBX-f0bb589a9-f66214b5)
+EBAY_APP_ID = os.getenv("GilesCle-A-SBX-f0bb589a9a6c-631f-4849-94b0-f66214b5")
 EBAY_DEV_ID = os.getenv("9c190ab3-af18-458d-9d8c-49a4c10dea4")
 EBAY_CERT_ID = os.getenv("SBX-0bb589a9da6c-631f-4849-94b0-ee43")
 
