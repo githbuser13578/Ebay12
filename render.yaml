@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: ebay-relister-app
+    env: python
+    buildCommand: "./build.sh"
+    startCommand: gunicorn app:app
+    envVars:
+      - key: EBAY_APP_ID
+        value: your-ebay-app-id
+      - key: EBAY_DEV_ID
+        value: your-ebay-dev-id
+      - key: EBAY_CERT_ID
+        value: your-ebay-cert-id
+    plan: free
+    region: oregon
