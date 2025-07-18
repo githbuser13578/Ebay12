@@ -3,7 +3,7 @@ services:
     name: ebay-relister-app
     env: python
     buildCommand: ""
-    startCommand: python app.py
+    startCommand: gunicorn app:app
     envVars:
       - key: EBAY_APP_ID
         value: GilesCle-A-SBX-f0bb589a9f-f66214b5
