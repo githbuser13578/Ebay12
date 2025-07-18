@@ -2,15 +2,14 @@ services:
   - type: web
     name: ebay-relister-app
     env: python
-    buildCommand: ""
-    preBuildCommand: "pip install --upgrade pip && pip install -r requirements.txt"
+    buildCommand: "pip install --upgrade pip && pip install -r requirements.txt"
     startCommand: gunicorn app:app
     envVars:
       - key: EBAY_APP_ID
-        value: GilesCle-A-SBX-f0bb589a9f-f66214b5
+        value: your-ebay-app-id
       - key: EBAY_DEV_ID
-        value: 9c190ab3-af18-458d-9d8c-4944c10ddea4
+        value: your-ebay-dev-id
       - key: EBAY_CERT_ID
-        value: SBX-0bb589a9da6c-631f-4849-94b0-ee43
+        value: your-ebay-cert-id
     plan: free
     region: oregon
