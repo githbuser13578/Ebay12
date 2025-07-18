@@ -1,0 +1,157 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f0f8ff;
+}
+
+header {
+    background-color: #70c9e5;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+header .logo-container img {
+    width: 120px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section with Background Image */
+.hero {
+    background-image: url('Screenshot_20250709_113715_Gmail.jpg');  /* Replace with the actual image URL */
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.hero .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    text-align: center;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 20px;
+}
+
+/* Services Section */
+.services {
+    background-color: #fff8e1;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 36px;
+    color: #004c56;
+    margin-bottom: 40px;
+}
+
+.service-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+}
+
+.service-item {
+    width: 200px;
+    text-align: center;
+}
+
+.service-item i {
+    font-size: 30px;
+    color: #004c56;  /* Match the color of your theme */
+    margin-bottom: 10px;
+}
+
+.service-item h3 {
+    font-size: 24px;
+    color: #004c56;
+    margin-bottom: 10px;
+}
+
+.service-item p {
+    font-size: 16px;
+    color: #333;
+}
+
+/* Contact Section */
+.contact {
+    background-image: url('Screenshot_20250718_154322_Samsung Internet.jpg');  /* Replace with the actual image URL */
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+    text-align: center;
+    color: #fff;
+}
+
+.contact h2 {
+    font-size: 30px;
+    color: #004c56;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 18px;
+}
+
+.contact-buttons {
+    margin-top: 20px;
+}
+
+.contact-buttons .btn {
+    background-color: #004c56;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.contact-buttons .btn:hover {
+    background-color: #70c9e5;
+}
+
+/* Footer */
+footer {
+    background-color: #70c9e5;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
