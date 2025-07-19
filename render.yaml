@@ -6,10 +6,10 @@ services:
     startCommand: gunicorn app:app
     envVars:
       - key: EBAY_APP_ID
-        value: your-ebay-app-id
+        value:GilesCle-A-SBX-f0bb589a9-f66214b5
       - key: EBAY_DEV_ID
-        value: your-ebay-dev-id
+        value:9c190ab3-af18-458d-9d8c-49a4c10ddea4
       - key: EBAY_CERT_ID
-        value: your-ebay-cert-id
+        value:SBX-0bb589a9da6c-631f-4849-94b0-ee43
     plan: free
     region: oregon
